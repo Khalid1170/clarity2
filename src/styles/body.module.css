@@ -1,0 +1,102 @@
+
+.body{
+    background-color: black;
+    min-height: 85vh;
+    /* border: 5px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+   @media screen and (max-width:768px){
+    /* min-height: 80vh; */
+    border: 1px solid red;
+   }
+    
+}
+
+
+   
+
+.Content {
+    color: white;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    
+
+    
+    /* position: absolute; */
+    flex-direction: column;
+    
+    
+    align-items: center;
+    font-family: Montserrat;
+    font-style: none;
+    font-weight: 900; 
+/*     
+    top: 40%; */
+    /* border: 1px solid red; */
+    font-size:160px ;
+@media screen and (max-width:768px){
+    font-size: 60px;
+    text-align: center;
+}
+
+@media screen and (max-width:350px){
+    font-size: 30px;
+    text-align: center;
+}
+}
+
+.Content :hover{
+    color: red;
+    
+    }
+
+.Content p{
+    color: #06CD98;
+    display: flex;
+    text-align: center;
+    
+}
+
+
+
+.button1{
+    color: white;
+    /* align-items: center; */
+    /* position: absolute; */
+    font-size: 75px;
+    background-color: #03b485;
+    font-family: Montserrat;
+    padding: 25px;
+    border-radius: 100px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    line-break:normal;
+    /* position: fixed; */
+    top: 65%;
+    @media screen and (max-width:768px){
+        /* margin-top:1%; */
+        padding: 10px;
+        font-size: 26px;
+    }
+    @media screen and (max-width:350px){
+        font-size: 25px;
+        text-align: center;
+    }
+    
+
+
+}
+.button1 :hover{
+    background-color: white;
+    color: #03b485;
+
+
+
+}
+

@@ -1,0 +1,94 @@
+.footer {
+    background-color: black;
+    height: 50vh;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-family: Montserrat;
+    /* position: fixed; */
+width: 100%;
+justify-content: space-evenly;
+border:1px solid red;
+    @media screen and(max-width:768px){
+        gap:15px;
+        flex-direction: column;
+    }
+    @media screen and (max-width:350px){
+        font-size: 30px;
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        /* height: 50vh; */
+        gap: 0;
+
+    }
+}
+.footer2{
+    display: flex;
+    gap: 25px;
+    font-size: 30px;
+    @media screen and (max-width:768px){
+        font-size:15px;
+       margin-bottom: 15%;    
+
+        
+    }
+    @media screen and (max-width:350px){
+        font-size: 10px;
+        margin-bottom: 0px;       
+
+        
+    }
+    
+}
+
+.footer a {
+    color: white;
+    @media screen and (max-width:768px){
+        /* color: blue; */
+        font-size: 15px;
+    }
+    
+}
+
+.footer1{
+    color: white;
+    font-size: 30px;
+    @media screen and (max-width:768px){
+       /* color:red;  */
+       font-size: 15px;   
+       margin-bottom: 15%;   
+       padding: 10px; 
+    }
+}
+
+/* .footer1 :hover{
+    text-decoration: underline;
+}
+
+.footer :hover{
+    text-decoration: underline;
+} */
+
+.socials{
+    
+   /* right: 5%; */
+   display: flex;
+   gap: 100px;
+   
+   @media screen and (max-width:768px){
+    gap:60px;
+    margin-top: 15%;
+   }
+   @media screen and (max-width:350px){
+    width: 100%;
+ 
+}
+   
+
+
+
+    
+}
+
+
