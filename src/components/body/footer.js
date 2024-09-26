@@ -14,8 +14,8 @@ return (
             <p>© 2023 Clarity. All rights reserved.</p>
         </div>
         <div className={style.footer2}>
-            <a href="/">Privacy Policy</a>
-            <a href="/">Terms of Service</a>
+            <a href="/https://www.google.com/">Privacy Policy</a>
+            <a href="/https://www.google.com/">Terms of Service</a>
         </div>
         <div className={style.socials}>
             <Link href="/facebook.com" target="_blank">

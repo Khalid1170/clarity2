@@ -8,11 +8,22 @@
     justify-content:center;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
    @media screen and (max-width:768px){
     /* min-height: 80vh; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
    }
+   @media screen and (max-width:400px){
+    font-size: 30px;
+    min-height: 70vh;
+    padding-top: 30%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    /* height: 50vh; */
+    gap: 0;
+
+}
     
 }
 
@@ -76,7 +87,7 @@
     border-radius: 100px;
     /* display: flex; */
     /* flex-direction: column; */
-    line-break:normal;
+    line-break:normal; 
     /* position: fixed; */
     top: 65%;
     @media screen and (max-width:768px){

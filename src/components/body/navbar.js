@@ -8,10 +8,10 @@ const Navbar = () => {
 
         <div className={style.navbar}>
             <div className={style.logo}>
-                <a href="/">Clarity</a>
+                <a href="/https://www.google.com/">Clarity</a>
                 </div>
                 <div className={style.navlinks}>
-                    <a href="/">Join Now</a>                 
+                    <a href="/https://www.google.com/">Join Now</a>                 
                     
                     </div>  
          

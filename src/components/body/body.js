@@ -15,7 +15,7 @@ const Body = () => {
             </div>
 
             <div className={style.button1}>
-              <a href="google.com">Join Now</a>
+              <a href="https://www.google.com/">Join Now</a>
             </div>
             
 
